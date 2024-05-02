@@ -43,7 +43,7 @@ public class CalculatorTest {
         cap.setCapability("appPackage", "com.sec.android.app.popupcalculator");
         cap.setCapability("appActivity", "com.sec.android.app.popupcalculator.Calculator");
         cap.setCapability("automationName", "UiAutomator2"); // for Android
-        cap.setCapability("uiautomator2ServerInstallTimeout", 600);  // Set to 60 seconds
+        cap.setCapability("uiautomator2ServerInstallTimeout", 600);
 
         URI uri = new URI("http://192.168.1.2:4723/");
         URL url = uri.toURL();
